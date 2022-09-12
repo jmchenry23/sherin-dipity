@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beans Beans the Magical Fruit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1>The More You Eat, the More You Toot</h1>
+    <hr />
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <divc lass="testColor">
+                    <h2 id="red" onmouseover="getImage()" onmouseout="hideImage()">The More you Toot, the Better you
+                        Feel:</h2>
+                    <ul class="circled">
+                        <li>Cheese and pickles - The Cheese and Pickles Band</li>
+                        <li>Somewhere over the rainbow</li>
+                        <li>Rice</li>
+                        <div id="coolPhoto">
+
+                        </div>
+                    </ul>
+            </div>
+
+
+            <div class="col">
+                <div class="testColor">
+                    <h2 id="fuschia">So Why don't you eat beans for every meal:</h2>
+                    <ul>
+                        <li>Corn - Corn Man</li>
+                        <li>Economics for the Youth - Economics Man</li>
+                        <li>GREEN</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="testColor">
+                    <h2 id="purple">Bars:</h2>
+                    <ol>
+                        <li>Coding and shi</li>
+                        <li>Laxing it up</li>
+                        <li>Poop</li>
+                    </ol>
+                </div>
+                <script src="main-script.js"></script>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="images/Somewhere.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Big cool guy sings nice song about rainbows</p>
+            <a href="https://www.youtube.com/watch?v=V1bFr2SWP1I" class="btn btn-primary">Listen to that shit</a>
+        </div>
+    </div>
+
+    <div>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+            <h4 id="scrollspyHeading1">First heading</h4>
+            <p>...</p>
+            <h4 id="scrollspyHeading2">Second heading</h4>
+            <p>...</p>
+            <h4 id="scrollspyHeading3">Third heading</h4>
+            <p>...</p>
+            <h4 id="scrollspyHeading4">Fourth heading</h4>
+            <p>...</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>...</p>
+          </div>
+    </div>
+</body>
+
+</html>
